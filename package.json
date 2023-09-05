@@ -1,7 +1,7 @@
 {
   "name": "project_5",
   "version": "0.1.0",
-  "homepage": "https://Youngswadhin.github.io/travel ",
+  "homepage": "https://Youngswadhin.github.io/Travel ",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,8 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   "predeploy": "npm run build",
+ "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
